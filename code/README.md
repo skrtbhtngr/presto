@@ -11,10 +11,6 @@ A custom workload generation tools is also included (`gen.py`, `gen_main.py`).
 
 `conf/` contains sample configuration files for workload generation tool
 
-`results/` contains the results (csv files + graph plots) for 3 workloads used in experiments
-
-`traces/` contains all the block I/O traces used in the project (the workload dataset)
-
 `main.cc` contains the driver function and `util.h` has some configurable parameters defined.
 
 Refer to the Stage II report in `/mtpdocs` for design of the cache and hashmaps.
