@@ -1,4 +1,4 @@
-# PRESTO: PREwarming STOrage Caches for Improving I/O Performance in Virtualized Infrastructure
+## PRESTO: PREwarming STOrage Caches for Improving I/O Performance in Virtualized Infrastructure
 
 **Abstract**
 
@@ -8,12 +8,13 @@ That being said, the cache itself is local to the node as it caters to the reque
 
 This study aims at identifying the scenarios which will render the hypervisor cache cold and coming up with methods which can aid in effectively "warming up" the otherwise cold cache. We consider the Nutanix HCI as the base model for our experiments.
 
---
+---
 ### This project was a joint effort by Nutanix and SynerG@CSE, IITB.
---
+---
+
 The repo is structured as follows:
 
-`code/` stores the project source files (with results and the dataset)
+`code/` stores the project source files (without results and the dataset)
 
 `mtpdocs/` contains various documents prepared as part of the project
 
