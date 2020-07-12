@@ -1,0 +1,29 @@
+---
+- name: 'syn504'
+  vdisk:
+    id: 504
+    size: 200gb
+  randseed: 10737424
+  duration: 1h
+  iops:
+    randvar: normal
+    mean: 200
+    stddev: 10
+  sector:
+    size: 512b
+    cluster:
+      size:
+        min: 1
+        max: 10
+      stride:
+        min: 10
+        max: 100000
+  hotspots:
+    - [30%, 70%]
+    - [70%, 30%]
+  readp: 50%
+  iosizes:
+    - [80%, 4096b]
+    - [10%, 8192b]
+    - [5%,  16384b]
+    - [5%,  131072b]

@@ -1,0 +1,3 @@
+/home/skrtbhtngr/CLionProjects/presto/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/skrtbhtngr/CLionProjects/presto/cmake-build-debug/CMakeFiles/presto.dir
+/home/skrtbhtngr/CLionProjects/presto/cmake-build-debug/CMakeFiles/edit_cache.dir

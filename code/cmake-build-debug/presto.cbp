@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="presto"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/skrtbhtngr/CLionProjects/presto/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/skrtbhtngr/CLionProjects/presto/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/skrtbhtngr/CLionProjects/presto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/skrtbhtngr/CLionProjects/presto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/skrtbhtngr/CLionProjects/presto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/skrtbhtngr/CLionProjects/presto/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/skrtbhtngr/CLionProjects/presto/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/skrtbhtngr/CLionProjects/presto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/skrtbhtngr/CLionProjects/presto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/skrtbhtngr/CLionProjects/presto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="presto">
+				<Option output="/home/skrtbhtngr/CLionProjects/presto/cmake-build-debug/presto" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skrtbhtngr/CLionProjects/presto/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/skrtbhtngr/CLionProjects/presto/zlib-1.2.11"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/skrtbhtngr/CLionProjects/presto/cmake-build-debug/Makefile&quot;  VERBOSE=1 presto"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/skrtbhtngr/CLionProjects/presto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/skrtbhtngr/CLionProjects/presto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/skrtbhtngr/CLionProjects/presto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="presto/fast">
+				<Option output="/home/skrtbhtngr/CLionProjects/presto/cmake-build-debug/presto" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/skrtbhtngr/CLionProjects/presto/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/skrtbhtngr/CLionProjects/presto/zlib-1.2.11"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/skrtbhtngr/CLionProjects/presto/cmake-build-debug/Makefile&quot;  VERBOSE=1 presto/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/skrtbhtngr/CLionProjects/presto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/skrtbhtngr/CLionProjects/presto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/skrtbhtngr/CLionProjects/presto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/skrtbhtngr/CLionProjects/presto/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/skrtbhtngr/CLionProjects/presto/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/skrtbhtngr/CLionProjects/presto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/skrtbhtngr/CLionProjects/presto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/skrtbhtngr/CLionProjects/presto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/skrtbhtngr/CLionProjects/presto/analyze.cc">
+			<Option target="presto"/>
+		</Unit>
+		<Unit filename="/home/skrtbhtngr/CLionProjects/presto/analyze.h">
+			<Option target="presto"/>
+		</Unit>
+		<Unit filename="/home/skrtbhtngr/CLionProjects/presto/bits.cc">
+			<Option target="presto"/>
+		</Unit>
+		<Unit filename="/home/skrtbhtngr/CLionProjects/presto/bits.h">
+			<Option target="presto"/>
+		</Unit>
+		<Unit filename="/home/skrtbhtngr/CLionProjects/presto/cache-ss.cc">
+			<Option target="presto"/>
+		</Unit>
+		<Unit filename="/home/skrtbhtngr/CLionProjects/presto/cache.cc">
+			<Option target="presto"/>
+		</Unit>
+		<Unit filename="/home/skrtbhtngr/CLionProjects/presto/cache.h">
+			<Option target="presto"/>
+		</Unit>
+		<Unit filename="/home/skrtbhtngr/CLionProjects/presto/exp1.cc">
+			<Option target="presto"/>
+		</Unit>
+		<Unit filename="/home/skrtbhtngr/CLionProjects/presto/exp1.h">
+			<Option target="presto"/>
+		</Unit>
+		<Unit filename="/home/skrtbhtngr/CLionProjects/presto/exp2.cc">
+			<Option target="presto"/>
+		</Unit>
+		<Unit filename="/home/skrtbhtngr/CLionProjects/presto/exp2.h">
+			<Option target="presto"/>
+		</Unit>
+		<Unit filename="/home/skrtbhtngr/CLionProjects/presto/exp3.cc">
+			<Option target="presto"/>
+		</Unit>
+		<Unit filename="/home/skrtbhtngr/CLionProjects/presto/exp3.h">
+			<Option target="presto"/>
+		</Unit>
+		<Unit filename="/home/skrtbhtngr/CLionProjects/presto/exp4.cc">
+			<Option target="presto"/>
+		</Unit>
+		<Unit filename="/home/skrtbhtngr/CLionProjects/presto/exp4.h">
+			<Option target="presto"/>
+		</Unit>
+		<Unit filename="/home/skrtbhtngr/CLionProjects/presto/experiments.cc">
+			<Option target="presto"/>
+		</Unit>
+		<Unit filename="/home/skrtbhtngr/CLionProjects/presto/experiments.h">
+			<Option target="presto"/>
+		</Unit>
+		<Unit filename="/home/skrtbhtngr/CLionProjects/presto/hashmap.cc">
+			<Option target="presto"/>
+		</Unit>
+		<Unit filename="/home/skrtbhtngr/CLionProjects/presto/hashmap.h">
+			<Option target="presto"/>
+		</Unit>
+		<Unit filename="/home/skrtbhtngr/CLionProjects/presto/main.cc">
+			<Option target="presto"/>
+		</Unit>
+		<Unit filename="/home/skrtbhtngr/CLionProjects/presto/metadata.cc">
+			<Option target="presto"/>
+		</Unit>
+		<Unit filename="/home/skrtbhtngr/CLionProjects/presto/metadata.h">
+			<Option target="presto"/>
+		</Unit>
+		<Unit filename="/home/skrtbhtngr/CLionProjects/presto/policy.cc">
+			<Option target="presto"/>
+		</Unit>
+		<Unit filename="/home/skrtbhtngr/CLionProjects/presto/policy.h">
+			<Option target="presto"/>
+		</Unit>
+		<Unit filename="/home/skrtbhtngr/CLionProjects/presto/snapshot.cc">
+			<Option target="presto"/>
+		</Unit>
+		<Unit filename="/home/skrtbhtngr/CLionProjects/presto/snapshot.h">
+			<Option target="presto"/>
+		</Unit>
+		<Unit filename="/home/skrtbhtngr/CLionProjects/presto/util.cc">
+			<Option target="presto"/>
+		</Unit>
+		<Unit filename="/home/skrtbhtngr/CLionProjects/presto/util.h">
+			<Option target="presto"/>
+		</Unit>
+		<Unit filename="/home/skrtbhtngr/CLionProjects/presto/workload.h">
+			<Option target="presto"/>
+		</Unit>
+		<Unit filename="/home/skrtbhtngr/CLionProjects/presto/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

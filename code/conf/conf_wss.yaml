@@ -1,0 +1,31 @@
+---
+- name: 'syn501'
+  set: 'wss'
+  vdisk:
+    id: 501
+    size: 100gb
+  randseed: 1048576
+  duration: 2h
+  iops:
+    randvar: normal
+    mean: 100
+    stddev: 10
+  sector:
+    size: 512b
+    cluster:
+      size:
+        min: 1
+        max: 30
+      stride:
+        min: 1
+        max: 10000
+  hotspots:
+    - [50%, 20%]
+    - [10%, 30%]
+    - [40%, 10%]
+  readp: 50%
+  iosizes:
+    - [80%, 4096b]
+    - [10%, 8192b]
+    - [5%,  16384b]
+    - [5%,  131072b]

@@ -1,0 +1,59 @@
+---
+- name: 'syn501'
+  vdisk:
+    id: 501
+    size: 100gb
+  randseed: 1048576
+  duration: 1h
+  iops:
+
+    randvar: normal
+    mean: 100
+    stddev: 10
+
+    randvar: uniform
+    min: 90
+    max: 110
+
+    randvar: poisson
+    mu: 100
+
+    randvar: beta
+    alpha: 10
+    beta: 50
+    shift: 50
+    scale: 100
+
+  sector:
+    size: 512b
+    cluster:
+      size:
+        min: 1
+        max: 30
+      stride:
+        min: 1
+        max: 10000
+
+  hotspots:
+    count: 4
+    weights: [10,20,30,40]
+    span:
+      min: 5
+      max: 50
+
+  hotspots:
+    - [10, 5, 25]
+    - [80, 35, 80]
+    - [10, 90, 95]
+
+  hotspots:
+    - [50, 20]
+    - [10, 30]
+    - [40, 10]
+
+  readp: 50%
+  iosizes:
+    - [80%, 4096b]
+    - [10%, 8192b]
+    - [5%,  16384b]
+    - [5%,  131072b]

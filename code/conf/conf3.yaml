@@ -1,0 +1,30 @@
+---
+- name: 'syn503'
+  vdisk:
+    id: 503
+    size: 50gb
+  randseed: 1024
+  duration: 1h
+  iops:
+    randvar: normal
+    mean: 50
+    stddev: 5
+  sector:
+    size: 512b
+    cluster:
+      size:
+        min: 1
+        max: 5
+      stride:
+        min: 5
+        max: 1000
+  hotspots:
+    - [10%, 5, 25]
+    - [80%, 35, 80]
+    - [10%, 90, 95]
+  readp: 50%
+  iosizes:
+    - [80%, 4096b]
+    - [10%, 8192b]
+    - [5%,  16384b]
+    - [5%,  131072b]
